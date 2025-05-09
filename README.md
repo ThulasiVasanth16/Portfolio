@@ -1,21 +1,6 @@
 💼 Thulasi Vasanth – Portfolio
 Welcome to my personal portfolio website! I'm a Front End Developer passionate about crafting clean, responsive, and user-friendly web experiences.
 
-🚀 Technologies Used
-
-. React JS
-
-. Tailwind CSS
-
-. JavaScript
-
-. HTML5 & CSS3
-
-. Material UI (MUI)
-
-. Webflow
-
-
 🌐 Live Demo
 You can view the live version of my portfolio here:
 👉 https://thulasi-vasanth-portfolio.vercel.app
