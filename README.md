@@ -7,36 +7,14 @@ Welcome to my personal portfolio website! I'm a Front End Developer passionate a
 
 . Tailwind CSS
 
-. Framer Motion
-
 . JavaScript
 
 . HTML5 & CSS3
 
 . Material UI (MUI)
 
-. React Icons
+. Webflow
 
-📁 Project Structure
-
-thulasi_portfolio/
-
-
-├── public/
-|
-├── src/
-|
-│   ├── assets/           # Images, resume PDF
-|
-│   ├── components/       # Reusable components like Hero, Technologies, etc.
-|
-│   ├── constants/        # Static data like HERO_CONTENT
-|
-│   └── App.jsx           # Root React component
-|
-├── README.md
-
-└── package.json
 
 🌐 Live Demo
 You can view the live version of my portfolio here:
