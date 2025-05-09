@@ -15,11 +15,11 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center  justify-center  gap-4 text-2xl">
       
-      <a
-          href="thulasivasanth01@gmail.com"
+      <a 
+          href="mailto:thulasivasanth01@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Thulasi,"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Email"
+       aria-label="Email"
         >
           <IoMdMail  />
         </a>
