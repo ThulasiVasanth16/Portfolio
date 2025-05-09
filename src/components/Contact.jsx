@@ -30,7 +30,7 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href={CONTACT.email}>
+        <a href="#">
           {CONTACT.email}
         </a>
       </div>
