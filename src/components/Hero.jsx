@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "framer-motion";
 import profilePic from "../assets/image.png";
 import resume from "../assets/Thulasi_Resume.pdf";
