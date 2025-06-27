@@ -2,10 +2,12 @@ import zepic from "../assets/projects/zepic.png";
 import amazon from "../assets/projects/amazon.png";
 import contact from "../assets/projects/contact.png";
 import todo from "../assets/projects/todo.png";
+import ecommerce from "../assets/projects/ecommerce.png";
+import signup from "../assets/projects/signup.png";
 
-export const HERO_CONTENT = `I am a front-end developer who enjoys creating clean and responsive websites. 
-I have 2 years of hands-on experience and skills in HTML, CSS, JavaScript, React.js, Tailwind CSS, Material UI, and Redux. 
-I’m excited to use my knowledge in real projects and grow as a developer.`;
+export const HERO_CONTENT = `Front-end developer with 2 years of hands-on experience in HTML, CSS, JavaScript, React.js, Tailwind CSS, Material UI, and Redux. Currently pursuing a Java Full Stack Developer course to expand backend skills and become a well-rounded developer.
+
+`;
 
 export const ABOUT_TEXT = `Hi, I’m Thulasi, a front-end developer who loves creating clean, responsive, and easy-to-use websites. My coding journey started in college, where I first learned HTML, CSS, and JavaScript. After finishing my studies, I did a 9-month internship at Zepic, where I got practical experience in front-end development.
 To improve my skills, I joined SoftTech Ashram, where I completed advanced training and also worked as a trainer, helping others improve their coding skills. With 2 years of experience in HTML, CSS, JavaScript, React.js, Tailwind CSS, Material UI, and Redux, I’m now ready to take on new challenges and grow further as a front-end developer.
@@ -48,6 +50,22 @@ export const PROJECTS = [
     description: `Created an 'About Us' page for Zepic during my internship using Webflow. 
     The page includes sections like 'Who We Are', 'When It All Began', 'How We Roll', and 'We Are ZEPIC', providing a comprehensive overview of the company’s mission, values, and team. The design is responsive and optimized for both desktop and mobile views.`,
     technologies: ["Webflow"],
+  },
+  {
+    title: "Sign Up Page ",
+    image: signup,
+    link: `https://sign-up-page-red.vercel.app`,
+    description: `Developed a responsive Sign Up page using JavaScript and Tailwind CSS with form validation,
+       password toggle, and toast notification.`,
+    technologies: ["Html", "Tailwind Css", "JS"],
+  },
+  {
+    title: "Ecommerce - Website ",
+    image: ecommerce,
+    link: `https://ecommerce-website-one-swart.vercel.app`,
+    description: ` Built a desktop-view e-commerce shopping cart using React, React Router, MUI, Formik, and
+       Yup with clean UI and functional cart and checkout features.`,
+     technologies: ["React JS", "Material Ui"],
   },
   {
     title: "My Contact Page",

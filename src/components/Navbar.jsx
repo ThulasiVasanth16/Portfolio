@@ -1,9 +1,10 @@
 import logo from "../assets/logo.png";
 import { CONTACT } from "../constants";
 import React from "react";
-import { FaLinkedin, FaGithub  } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaGitlab } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
   return (
@@ -14,14 +15,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className="m-8 flex items-center  justify-center  gap-4 text-2xl">
-      
-      <a 
+        <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-       aria-label="Email"
+          aria-label="Email"
         >
-          <IoMdMail  />
+          <IoMdMail />
         </a>
         <a
           href="https://www.linkedin.com/in/thulasivasanth/"
@@ -31,14 +31,14 @@ const Navbar = () => {
         >
           <FaLinkedin />
         </a>
-       
+
         <a
           href="https://github.com/ThulasiVasanth16"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
         >
-          <FaGithub  />
+          <FaGithub />
         </a>
         <a
           href="https://gitlab.com/ThulasiVasanth"
@@ -46,7 +46,15 @@ const Navbar = () => {
           rel="noopener noreferrer"
           aria-label="GitLab"
         >
-          <FaGitlab  />
+          <FaGitlab />
+        </a>
+        <a
+          href="https://leetcode.com/u/Thulasi16/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Leetcode"
+        >
+          <SiLeetcode />
         </a>
       </div>
     </nav>
