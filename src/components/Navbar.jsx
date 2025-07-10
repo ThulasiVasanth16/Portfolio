@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center  justify-center  gap-4 text-2xl">
         <a
-          href="#"
+          href="mailto:thulasivasanth01@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Email"
