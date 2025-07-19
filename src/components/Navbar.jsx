@@ -8,7 +8,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
   return (
-      <nav className="flex items-center justify-between py-6 fixed top-0 z-50 shadow-md">
+      <nav className="flex items-center justify-between py-6">
       <div className="flex  flex-shrink-0 items-center">
         <a href="/" aria-label="Home">
           <img src={logo} className="mx-2" width={50} height={33} alt="Logo" />
